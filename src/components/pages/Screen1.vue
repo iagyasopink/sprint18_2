@@ -1,0 +1,203 @@
+<template>
+  <NucGridPage v-bind:gap="{'col':0,'row':0}" v-bind:rows="[1]"
+    v-bind:schema="{'r0-c0':{'col':0,'row':0,'showIn':['xs','sm','md','lg'],'colSpan':1,'rowSpan':1}}"
+    v-bind:columns="[1]" overflow="auto" v-bind:designMode="false" v-bind:minNsLimit="1050"
+    v-bind:style="{'background':'#FFFFFF','paddingTop':'0px','paddingLeft':'0px','paddingRight':'0px','paddingBottom':'0px'}">
+    <NucGridCell v-bind:wrap="true" v-bind:reverse="false" overflow="hidden" direction="column"
+      v-bind:showInDevice="['xs','sm','md','lg']" verticalAlignment="top" horizontalAlignment="left"
+      id="6471f491-0371-4757-8983-0aa7d8519bf7" v-bind:col="0" v-bind:row="0" v-bind:colSpan="1" v-bind:rowSpan="1"
+      v-bind:marginTop="0" v-bind:marginLeft="0" v-bind:marginRight="0" v-bind:marginBottom="0"
+      v-bind:style="{'height':'auto','background':'transparent','paddingTop':'0px','borderColor':'','borderStyle':'solid','borderWidth':'0px','paddingLeft':'0px','borderRadius':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'1px','borderTopRightRadius':'1px','borderBottomLeftRadius':'1px','borderBottomRightRadius':'1px'}"
+      slot="r0-c0" area="r0-c0">
+      <NucGroupElement top="0%" left="0%" v-bind:snapX="false" v-bind:snapY="false" v-bind:isLock="false" bgColor=""
+        position="absolute" ncTooltipText="" id="fd57c732-9895-4258-aac9-36bd98ff9aba"
+        v-bind:style="{'color':'#FFFFFF','width':'1050px','height':'637.5px','zIndex':2,'fontSize':'8.44171875px','maxWidth':'','minWidth':'5.6278125','tabIndex':'-0.56278125','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'5.6278125','textAlign':'center','background':'','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.7034765625','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0.56278125px','textDecoration':'none','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
+        <WImage top="12.349117920148561%" left="0%" v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:rounded="false" stretch="none"
+          imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2nG24AYDm6FOEC7jIfgubO96GbRso2Xshu1f8abSYQ&amp;s"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          ncClickBorderColor="black" ncHoverBorderColor="black" dataModelForDynamicType="string"
+          id="47caca74-ebd9-48d4-ad95-33c28174b2db"
+          v-bind:style="{'width':'525.6376875000001px','height':'442.90884374999996px','zIndex':4,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WLabel top="16.15668402777778%" left="51.015625%" text="Contact Us" v-bind:snapX="false" v-bind:snapY="false"
+          theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="1af5d032-feae-4b09-986d-1b99867e74a5"
+          v-bind:style="{'color':'#000000','width':'','height':'','zIndex':5,'fontSize':'25.32515625px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WLabel top="24.882075471698112%" left="51.144492131616595%"
+          text="Contact us for a quote. Help or to join the team" v-bind:snapX="false" v-bind:snapY="false"
+          theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="efbad8b3-0368-4bce-a908-8d89c59908c0"
+          v-bind:style="{'color':'#000000','width':'262.5px','height':'15px','zIndex':6,'fontSize':'12.3811875px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WIconButton tag="button" top="31.93069306930693%" icon="fab fa-twitter" left="50.83449235048679%"
+          v-bind:pill="false" size="md" text="   " type="button" v-bind:block="false" color="#FFFFFF"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary"
+          fontSize="" position="absolute" fontStyle="normal" iconColor="#000000" v-bind:isEnabled="true" minHeight=""
+          background="#FFFFFF" fontFamily="OpenSans-Bold,Open Sans" fontWeight="400" layoutMode="left-to-right"
+          lineHeight="1.2" textShadow="" borderColor="#6C757D" iconFontSize="35px" ncTypography="custom"
+          iconAlignment="center" iconFontStyle="default" ncTooltipText="" verticalWidth="" iconFontFamily="font-awesome"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="" horizontalWidth="" horizontalHeight="" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" verticalMinWidth="40px" verticalMinHeight="60px"
+          horizontalMinWidth="96px" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" buttonTextAlignment="center"
+          horizontalMinHeight="30px" ncDisableBorderColor="#4285f4" ncClickBackgroundColor="#4285f4"
+          ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#4285f4"
+          id="613fac89-4514-4c67-bba3-ba59da48ba6b"
+          v-bind:style="{'width':'37.518750000000004px','height':'27.0135px','zIndex':7,'maxWidth':'','minWidth':'8.44171875px','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'none','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0.56278125px','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'2.251125px','borderTopRightRadius':'2.251125px','borderBottomLeftRadius':'2.251125px','borderBottomRightRadius':'2.251125px'}"/>
+        <WIconButton tag="button" top="31.93069306930693%" icon="fab fa-instagram" left="55.21557719054242%"
+          v-bind:pill="false" size="md" text="   " type="button" v-bind:block="false" color="#FFFFFF"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary"
+          fontSize="12px" position="absolute" fontStyle="normal" iconColor="#000000" v-bind:isEnabled="true"
+          minHeight="" background="#FFFFFF" fontFamily="OpenSans-Bold,Open Sans" fontWeight="400"
+          layoutMode="left-to-right" lineHeight="1.2" textShadow="" borderColor="#6C757D" iconFontSize="35px"
+          ncTypography="custom" iconAlignment="center" iconFontStyle="default" ncTooltipText="" verticalWidth=""
+          iconFontFamily="font-awesome"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="" horizontalWidth="" horizontalHeight="" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" verticalMinWidth="40px" verticalMinHeight="60px"
+          horizontalMinWidth="96px" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" buttonTextAlignment="center"
+          horizontalMinHeight="30px" ncDisableBorderColor="#4285f4" ncClickBackgroundColor="#4285f4"
+          ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#4285f4"
+          id="5bd5ec7a-1eb9-4ccb-b92e-9f05008ea38c"
+          v-bind:style="{'width':'34.517250000000004px','height':'27.0135px','zIndex':8,'maxWidth':'','minWidth':'8.44171875px','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'none','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0.56278125px','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'2.251125px','borderTopRightRadius':'2.251125px','borderBottomLeftRadius':'2.251125px','borderBottomRightRadius':'2.251125px'}"/>
+        <WIconButton tag="button" top="31.524685936843714%" icon="fab fa-pinterest-p" left="59.585121602288986%"
+          v-bind:pill="false" size="md" text="   " type="button" v-bind:block="false" color="#FFFFFF"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary"
+          fontSize="12px" position="absolute" fontStyle="normal" iconColor="#000000" v-bind:isEnabled="true"
+          minHeight="" background="#FFFFFF" fontFamily="OpenSans-Bold,Open Sans" fontWeight="400"
+          layoutMode="left-to-right" lineHeight="1.2" textShadow="" borderColor="#6C757D" iconFontSize="35px"
+          ncTypography="custom" iconAlignment="center" iconFontStyle="default" ncTooltipText="" verticalWidth=""
+          iconFontFamily="font-awesome"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="" horizontalWidth="" horizontalHeight="" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" verticalMinWidth="40px" verticalMinHeight="60px"
+          horizontalMinWidth="96px" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" buttonTextAlignment="center"
+          horizontalMinHeight="30px" ncDisableBorderColor="#4285f4" ncClickBackgroundColor="#4285f4"
+          ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#4285f4"
+          id="d24a4d1d-1254-4691-ba98-776dc771ba33"
+          v-bind:style="{'width':'31.5px','height':'27px','zIndex':9,'maxWidth':'','minWidth':'8.44171875px','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'none','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0.56278125px','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'2.251125px','borderTopRightRadius':'2.251125px','borderBottomLeftRadius':'2.251125px','borderBottomRightRadius':'2.251125px'}"/>
+        <WIconButton tag="button" top="31.447834533196207%" icon="fas fa-basketball-ball" left="63.285714285714285%"
+          v-bind:pill="false" size="md" text="   " type="button" v-bind:block="false" color="#FFFFFF"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary"
+          fontSize="12px" position="absolute" fontStyle="normal" iconColor="#000000" v-bind:isEnabled="true"
+          minHeight="" background="#FFFFFF" fontFamily="OpenSans-Bold,Open Sans" fontWeight="400"
+          layoutMode="left-to-right" lineHeight="1.2" textShadow="" borderColor="#6C757D" iconFontSize="35px"
+          ncTypography="custom" iconAlignment="center" iconFontStyle="default" ncTooltipText="" verticalWidth=""
+          iconFontFamily="font-awesome"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="" horizontalWidth="" horizontalHeight="" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" verticalMinWidth="40px" verticalMinHeight="60px"
+          horizontalMinWidth="96px" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" buttonTextAlignment="center"
+          horizontalMinHeight="30px" ncDisableBorderColor="#4285f4" ncClickBackgroundColor="#4285f4"
+          ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#4285f4"
+          id="1ad1b5c7-d2ab-4346-ab47-f067a094008d"
+          v-bind:style="{'width':'40.5px','height':'32.25px','zIndex':10,'maxWidth':'','minWidth':'8.44171875px','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'none','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0.56278125px','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'2.251125px','borderTopRightRadius':'2.251125px','borderBottomLeftRadius':'2.251125px','borderBottomRightRadius':'2.251125px'}"/>
+        <WEmailInput id="51561547-8515-4222-be90-042aba3302da" top="45.23003472222222%" v-bind:lazy="false"
+          left="51.06689453125%" size="md" text="" v-bind:trim="false" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:noWheel="false" v-bind:disabled="false" position="absolute" v-bind:readonly="false"
+          v-bind:required="false" wordList="" v-bind:autofocus="false" v-bind:plaintext="false" background=""
+          ariaInvalid="false" v-bind:debounceVal="0" ncInputType="email" placeholder="Enter a valid email address"
+          v-bind:previewMode="true" autocomplete="" ncTypography="custom" v-bind:lazyFormatter="false" ncTooltipText=""
+          v-bind:isWordListOpen="false"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','ncKey':'type','ncType':{'ncInputType':'number'},'ncValue':'number','propName':'text','displayName':'Value','nsDefaultValue':'string'}]}"
+          v-bind:isNumberConvert="false" ncClickFontColor="#434855" ncFocusFontColor="#434855"
+          ncHoverFontColor="#434855" ncMaxNumberValue="100" ncMinNumberValue="0" ncClickBorderColor="#000000"
+          ncDisableFontColor="#434855" ncFocusBorderColor="#000000" ncHoverBorderColor="#000000"
+          ncDisableBorderColor="#000000" formatterFunctionName="" ncClickBackgroundColor="#ffffff"
+          ncFocusBackgroundColor="#ffffff" ncHoverBackgroundColor="#ffffff" ncDisableBackgroundColor="#ffffff"
+          v-bind:style="{'color':'','width':'218.359125px','height':'36.58078125px','zIndex':11,'fontSize':'10.130062500000001px','maxWidth':'','minWidth':'88.9194375px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.56278125','marginLeft':'0px','paddingTop':'0px','visibility':'visible','borderColor':'#D1D1D6','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WSquaredSuccessButton tag="button" top="45.69444444444444%" left="73.515625%" v-bind:pill="false" size="md"
+          text="Submit" type="button" v-bind:block="false" color="#000000" v-bind:snapX="false" v-bind:snapY="false"
+          theme="theme--light01" v-bind:squared="true" variant="success" position="absolute" v-bind:isEnabled="true"
+          background="#FFFFFF" borderColor="#030303" borderWidth="2px" ncTypography="custom" v-bind:resetTrigger="false"
+          ncTooltipText="" verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          verticalHeight="60px" horizontalWidth="72.4479px" horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" ncClickBorderColor="#4285f4"
+          ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4"
+          ncDisableBorderColor="transparent" ncClickBackgroundColor="#4285f4" ncFocusBackgroundColor="#4285f4"
+          ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#969696" id="46269485-979e-4615-9267-38a8020069ed"
+          v-bind:style="{'width':'73.1615625px','height':'32.07853125px','zIndex':12,'fontSize':'11.255625px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'bold','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'1.1255625px','textDecoration':'none','borderLeftWidth':'1.1255625px','borderRightWidth':'1.1255625px','horizontalHeight':'21.123825384375px','borderBottomWidth':'1.1255625px','borderTopLeftRadius':'2.251125px','borderTopRightRadius':'2.251125px','borderBottomLeftRadius':'2.251125px','borderBottomRightRadius':'2.251125px'}"/>
+        <WIconButton tag="button" top="61.705296116690214%" icon="fas fa-map-marker-alt" left="51.144492131616595%"
+          v-bind:pill="false" size="md" text="   " type="button" v-bind:block="false" color="#FFFFFF"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary"
+          fontSize="12px" position="absolute" fontStyle="normal" iconColor="#000000" v-bind:isEnabled="true"
+          minHeight="" background="#FFFFFF" fontFamily="OpenSans-Bold,Open Sans" fontWeight="400"
+          layoutMode="left-to-right" lineHeight="1.2" textShadow="" borderColor="#6C757D" iconFontSize="35px"
+          ncTypography="custom" iconAlignment="center" iconFontStyle="default" ncTooltipText="" verticalWidth=""
+          iconFontFamily="font-awesome"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="" horizontalWidth="" horizontalHeight="" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" verticalMinWidth="40px" verticalMinHeight="60px"
+          horizontalMinWidth="96px" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" buttonTextAlignment="center"
+          horizontalMinHeight="30px" ncDisableBorderColor="#4285f4" ncClickBackgroundColor="#4285f4"
+          ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#4285f4"
+          id="5435fcb4-24e5-4c9a-ac30-d0492feb0bb6"
+          v-bind:style="{'width':'29.25px','height':'30.75px','zIndex':13,'maxWidth':'','minWidth':'8.44171875px','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'none','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0.56278125px','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'2.251125px','borderTopRightRadius':'2.251125px','borderBottomLeftRadius':'2.251125px','borderBottomRightRadius':'2.251125px'}"/>
+        <WIconButton tag="button" top="61.712239583333336%" icon="fas fa-mobile-alt" left="77.213134765625%"
+          v-bind:pill="false" size="md" text="   " type="button" v-bind:block="false" color="#FFFFFF"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary"
+          fontSize="12px" position="absolute" fontStyle="normal" iconColor="#000000" v-bind:isEnabled="true"
+          minHeight="" background="#FFFFFF" fontFamily="OpenSans-Bold,Open Sans" fontWeight="400"
+          layoutMode="left-to-right" lineHeight="1.2" textShadow="" borderColor="#6C757D" iconFontSize="35px"
+          ncTypography="custom" iconAlignment="center" iconFontStyle="default" ncTooltipText="" verticalWidth=""
+          iconFontFamily="font-awesome"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="" horizontalWidth="" horizontalHeight="" ncClickFontColor="#FFFFFF"
+          ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" verticalMinWidth="40px" verticalMinHeight="60px"
+          horizontalMinWidth="96px" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" buttonTextAlignment="center"
+          horizontalMinHeight="30px" ncDisableBorderColor="#4285f4" ncClickBackgroundColor="#4285f4"
+          ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4" ncDisableBackgroundColor="#4285f4"
+          id="0c59fd05-6566-4880-9af6-ac7e8bd36a98"
+          v-bind:style="{'width':'26.45071875px','height':'30.390187500000003px','zIndex':14,'maxWidth':'','minWidth':'8.44171875px','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'none','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0.56278125px','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'2.251125px','borderTopRightRadius':'2.251125px','borderBottomLeftRadius':'2.251125px','borderBottomRightRadius':'2.251125px'}"/>
+        <WLabel top="68.65668402777777%" left="51.84814453125%" text="Address" v-bind:snapX="false" v-bind:snapY="false"
+          theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="872bfc29-b343-4af6-bc67-678fe453682e"
+          v-bind:style="{'color':'#000000','width':'','height':'','zIndex':15,'fontSize':'14.06953125px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'OpenSans-SemiBold,Open Sans','fontWeight':'normal','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WLabel top="68.84114583333333%" left="77.62939453125%" text="Phone" v-bind:snapX="false" v-bind:snapY="false"
+          theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="f0a599d1-f923-4e92-881d-3cbba11fe986"
+          v-bind:style="{'color':'#000000','width':'','height':'','zIndex':16,'fontSize':'14.06953125px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'OpenSans-SemiBold,Open Sans','fontWeight':'normal','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WLabel top="73.82075471698113%" left="51.93133047210301%" text="Sample text. Click to select the text box"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="3a47de2a-d65a-4cc7-a91d-166ffb971525"
+          v-bind:style="{'color':'#747474','width':'180px','height':'25.5px','zIndex':17,'fontSize':'11.255625px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WLabel top="73.76470588235294%" left="77.57142857142857%" text="Sample text. Click to select the text box"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          id="3b83733a-1022-4219-a011-048bffb7a574"
+          v-bind:style="{'color':'#747474','width':'180px','height':'25.5px','zIndex':18,'fontSize':'11.255625px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+      </NucGroupElement>
+    </NucGridCell>
+  </NucGridPage>
+</template>
+<script>
+export default {
+  name: 'Screen1',
+  data() {
+    return {};
+  },
+  props: {},
+  created() {},
+  mounted() {},
+  computed: {},
+  methods: {},
+  watch: {},
+};
+</script>
+
+<style scoped></style>
